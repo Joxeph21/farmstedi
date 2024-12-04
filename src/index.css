@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#plants{
+    position: relative;
+}
+
+#plants::after{
+    content: url('../src/assets/images/line.png');
+    position: absolute;
+    height: 20px;
+    width: 200px;
+    left: 0;
+    bottom: 45px;
+
+}
+
+#text{
+    position: relative;
+}
+
+#text::after{
+    content: url('../src/assets/images/arrow.png');
+    position: absolute;
+    height: 20px;
+    width: 200px;
+    opacity: .8;
+    rotate: 1deg;
+    right: 130px;
+    bottom: -12px;
+}
